@@ -1,6 +1,6 @@
 {
-  "homepage":"https://LukasRaider/SpringWeatherApi",
-  "name": "weather-app",
+  "homepage":"https://LukasRaider/SpringWeatherApiReact",
+  "name": "SpringWeatherApi-React",
   "version": "0.1.0",
   "private": true,
   "dependencies": {
