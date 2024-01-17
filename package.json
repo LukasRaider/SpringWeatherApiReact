@@ -1,6 +1,6 @@
 {
-  "homepage":"https://LukasRaider/SpringWeatherApiReact",
-  "name": "SpringWeatherApiReact",
+  "homepage": "http://lukashuvar.borec.cz/Projects/WeatherApi",
+  "name": "weather-app",
   "version": "0.1.0",
   "private": true,
   "dependencies": {
