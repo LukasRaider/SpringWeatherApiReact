@@ -40,7 +40,7 @@ function App() {
     axios
       .get("https://springweatherapilh.azurewebsites.net/weather")
       .then(function (response) {
-        //console.log(response.data);
+        console.log(response.data);
         setWeatherData(response.data);
         setTime(getCurrentTime);
       })
@@ -88,12 +88,12 @@ function App() {
           className={showData ? "col-md-6 mx-auto" : "col-md-6 mx-auto d-none"}
         >
           <h2 className="display-6">{showRoom.location}</h2>
-          <p>Čas: {showRoom.timestamp}</p>
-          <p>Teplota: {showRoom.temp_celsius}°C</p>
+          <p>Čas: {showRoom.timestap}</p>
+          <p>Teplota: {showRoom.temp_celsium}°C</p>
           <p>Rel. vlhkost: {showRoom.rel_humidity} %</p>
           <p>Rychlost větru: {showRoom.windSpeed_mps} mi/h</p>
-          <p>Směr větru: {showRoom.windDirection}</p>
-          <p>Počasí: {showRoom.weatherDescription}</p>
+          <p>Směr větru: {showRoom.wind_direction}</p>
+          <p>Počasí: {showRoom.weather_description}</p>
         </div>
       </div>
     </div>
